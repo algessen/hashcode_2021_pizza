@@ -37,4 +37,4 @@ if __name__ == '__main__':
     in_name = 'e_many_teams.in'
     teams, pizzas = read_file(in_name)
     answer = split_solution(teams, pizzas)
-    write_result(answer, score_answer(answer, pizzas), 'e_result_split')
+    write_result(answer, score_answer(answer, pizzas), 'split_result/e_result_split')
